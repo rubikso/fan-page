@@ -66,6 +66,7 @@ footer {
     margin-left: ;
     margin-right: ;*/
     font-family: Courier;
+    font-size: 14px;
     letter-spacing: 2.1px;
     text-align: center;
     
@@ -125,6 +126,9 @@ a:hover {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+.alphaorangered{
+    color:rgba(240,73,55,.5);
 }
 
 /*ID*/
