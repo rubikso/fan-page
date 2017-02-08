@@ -58,7 +58,6 @@ h5 {
 /*Footer*/
 
 footer {
-    position: ;
     color: #777;
     opacity: 0.8;
     height: 15px;
@@ -70,11 +69,17 @@ footer {
     letter-spacing: .21em;
     text-align: center;
     border: 1px solid #333;
-    bottom: 0;
+    bottom: 0px;
 }
 
 /*Image Divs*/
 
+div.skeleton {
+    width: 800px;
+    min-width: 80px;
+    position: relative;
+    margin: auto;
+}
 div.backgroundimage {
     background-image: url(images/logo.png);
     background-repeat: no-repeat;
