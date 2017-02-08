@@ -172,12 +172,14 @@ div.blackonwhite {
 }
 div.merch {
     background: rgba(0, 0, 0, .75);
+    border-radius: 15px 15px 15px 15px;
     text-align: center;
     width: 100%;
     padding-bottom: 5px;
 }
 div.store {
     background: rgba(0, 0, 0, .75);
+    border-radius: 15px 15px 0px 0px;
     width: 800px;
     height: 160px;
     min-width: 80px;
@@ -216,7 +218,7 @@ ul.songlist {
 
 .whiteonblack {
     background-color: rgba(0, 0, 0, .75);
-    border-radius: 5px;
+    border-radius: 15px;
     color: #fff;
     border-top: 0em;
     font-family: Courier;
