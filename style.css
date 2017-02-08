@@ -182,8 +182,7 @@ div.store {
     height: 160px;
     min-width: 80px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 div.blackonwhite a {
     color: #000;
