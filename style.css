@@ -4,6 +4,7 @@ body {
     white-space: normal;
     background-color: #000;
     background-image: radial-gradient(rgba(0, 0, 0, .3), rgba(220, 53, 35, .25));
+    background-repeat: no-repeat;
     color: #FFF;
     font-family: courier, verdana, sans-serif;
     letter-spacing: .15em;
@@ -26,7 +27,7 @@ hr {
 h1.uppercase {
     color: #f04937;
     background-color: rgba(0, 0, 0, .3);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(255, 255, 255, .14));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(220, 53, 35, .25));
     background-repeat: no-repeat;
     font-size: 45px;
     font-family: courier, verdana, sans-serif;
@@ -39,7 +40,7 @@ h1.uppercase {
     position: relative;
     margin: auto;
     border-radius: 50px;
-    box-shadow: 0px -50px 100px rgba(255, 255, 255, .25);
+    box-shadow: 0px -5px 10px rgba(220, 53, 35, .15);
 }
 
 /*albums*/
