@@ -51,10 +51,12 @@ h2 {
     background-color: #cd0702;
     font-family: courier, verdana, sans-serif;
     font-size: 35px;
+    width: 100%;
     text-align: center;
     text-shadow: 0px 1px 2px #333;
     border-radius: 10px 10px 0px 0px;
     margin: -15px -4px;
+    padding: 0px 4px
 }
 
 /*merchandise*/
@@ -94,6 +96,7 @@ footer {
     font-style: italic;
     letter-spacing: .21em;
     text-align: center;
+    text-shadow: 1px 1px 1px #000;
     border: 1px solid #333;
     bottom: 0px;
 }
@@ -149,7 +152,7 @@ div.skeleton2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    left: 865px;
+    left: 875px;
     top: 25px;
     width: 20px;
     height: 70px;
@@ -170,8 +173,8 @@ div.main-content {
     padding-top: 120px;
 }
 div.intro {
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 150px;
+    margin-bottom: 130px;
     text-align: center;
     line-height: 1.6em;
     font-size: 20px;
@@ -196,7 +199,10 @@ div.merch {
     text-align: center;
     width: 100%;
     padding-bottom: 5px;
-    margin-top: 80px;
+    margin-top: 130px;
+}
+div.merch p {
+    text-shadow: 3px 3px 1px #000;
 }
 div.merch a:link {
     color: #f04937;
@@ -234,7 +240,7 @@ dt.albumnames {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-top: 30px;
 }
 
@@ -249,8 +255,8 @@ ul.songlist {
     color: #000;
     text-align: center;
     padding: 0.2em;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 .albums dl {
     font-size: 20px;
@@ -261,7 +267,7 @@ ul.songlist {
 }
 div.albums {
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 130px;
     border-radius: 0px 0px 15px 15px;
     text-align: center;
 }
