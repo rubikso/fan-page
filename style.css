@@ -82,7 +82,7 @@ nav a {
     color: red;
 }
 nav a:visited {
-    color: red;
+    color: #ff0000;
 }
 nav a:hover {
     background: black;
@@ -94,6 +94,20 @@ nav li:last-child a {
 
 /*--------------------------------------*/
 
+
+/*initial hover affect*/
+
+.navi:hover {
+    margin-left: 0;
+    color: white;
+    opacity: 1;
+    transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, margin-left, color;
+    transition: margin-left .2s ease, opacity .1s ease-in-out;
+    transition-timing-function: ease;
+}
+
+/*release effect*/
+
 .navi {
     width: 240px;
     margin-left: -185px;
@@ -103,32 +117,23 @@ nav li:last-child a {
     background: #000;
     opacity: 0;
     z-index: 200;
-    -webkit-transition: all 2s;
-    /* For Safari 3.1 to 6.0 */
     transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, margin-left, color;
-    transition: margin-left .5s, border-bottom .1s, opacity 1.2s;
-    transition-timing-function: ease-in-out;
-}
-.navi:hover {
-    margin-left: 0;
-    color: white;
-    opacity: 1;
-    -webkit-transition: all 2s;
-    /* For Safari 3.1 to 6.0 */
-    transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, margin-left, color;
-    transition: margin-left .5s, border-bottom .35s, opacity .2s;
+    transition: margin-left .2s ease, opacity .5s ease .13s;
     transition-timing-function: ease-in-out;
 }
 ul.navi li:first-child {
     margin-top: 150px;
 }
+
+/*menu hoverng effects*/
+
 ul.navi a {
     font-family: sans-serif;
     font-weight: bold;
     -webkit-transition: width 2s;
     /* For Safari 3.1 to 6.0 */
     transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, color;
-    transition: background-color .35s, border-bottom .1s, color .35s;
+    transition: background-color .1s, color .1s;
     transition-timing-function: ease;
 }
 ul.navi a:hover {
