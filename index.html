@@ -4,13 +4,14 @@
 <head>
     <title>Twenty Øne Piløts Fan Page</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
 
-    <div class="backgroundimage"></div>
+
 
 
     <div class="header">
@@ -28,11 +29,39 @@
 
     </div>
 
-    <div id="container">
 
+    <!-- Sidebar NAV -->
+
+    <aside><div class="button"><p>&#9776;</p></div></aside>
+   
+    <aside class="menu">
+        <nav>
+            <ul class="navi">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#albums">ALBUMS</a></li>
+                <li><a href="#store">STORE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Back To Top Button -->
+    <a href="#top">
+        <div class="topbox"><span>TØP</span></div>
+    </a>
+
+    <!-- Backgrond -->
+    <div class="backgroundimage"></div>
+
+
+
+    <!-- Content -->
+
+    <div id="container">
+        <div id="top"><span id="about"></span></div>
         <div class="main-content">
             <div class="intro whiteonblack">
-                Twenty One Pilots is the hottest band on the pop scene right now! Started in 2009 by singer/songwriter <a href="https://en.wikipedia.org/wiki/Tyler_Joseph">Tyler Joseph</a> with 2 other members, they released their first self-produced album self titled as "Twenty One Pilots". Shortly thereafter, the guitarist and the drummer left the band, only for Tyler to find his new drummer, <a href="https://en.wikipedia.org/wiki/Josh_Dun">Joshua Dun</a>. To this day they have become the best of friends and released 3 more albums, 2 of which were released on the "Fueled by Ramen" record label, and the boys have performed on several local and world tours due to their success on the music scene.
+                Twenty One Pilots is the hottest band on the pop scene right now! Started in 2009 by singer/songwriter <a href="https://en.wikipedia.org/wiki/Tyler_Joseph">Tyler Joseph</a> with 2 other members, they released their first self-produced album self titled as "Twenty One Pilots". Shortly thereafter, the guitarist and the drummer left the band, only for Tyler to find his new drummer, <a href="https://en.wikipedia.org/wiki/Josh_Dun">Joshua Dun</a>. To this day they have become the best of friends and released 3 more albums, <span id="albums"></span>  2 of which were released on the "Fueled by Ramen" record label, and the boys have performed on several local and world tours due to their success on the music scene.
             </div>
             <section>
                 <div class="albums">
@@ -43,7 +72,7 @@
                             <!--Self Titled-->
                             <dt class="albumnames"><a href="https://g.co/kgs/x7Vris">"Self Titled&nbsp;/&nbsp;Twenty One Pilots"</a></dt>
                             <dd class="clearfix">
-                                <a href="https://g.co/kgs/x7Vris"><img class="album-art float-left" src="images/self-titled-600x600.jpg" width="150" alt="Selt Titled / Twenty One Pilots Album"></a>
+                                <a href="https://g.co/kgs/x7Vris"><img class="album-art float-left" src="images/self-titled-600x600.jpg" alt="Selt Titled / Twenty One Pilots Album"></a>
 
 
                                 The first official album of the band released in 2009, completely comprised of songs written by Tyler Joseph, it is a unique blend of poetry, synthesized music, rap, and many other genres included in the album. Dot be deceived, the songs on this album may sound happy, but the lyrics are full of despair.</dd>
@@ -54,7 +83,7 @@
                             <!--Regional-->
                             <dt class="albumnames"><a href="https://g.co/kgs/WDjlgq">"Regional at Best"</a></dt>
                             <dd class="clearfix">
-                                <a href="https://g.co/kgs/WDjlgq"><img class="album-art float-right" src="images/regional-120x120.jpg" width="150" alt="Regional At Best Album"></a>
+                                <a href="https://g.co/kgs/WDjlgq"><img class="album-art float-right" src="images/regional-120x120.jpg" alt="Regional At Best Album"></a>
 
 
 
@@ -65,7 +94,7 @@
                             <!--Vessel-->
                             <dt class="albumnames"><a href="https://g.co/kgs/ocMg9S">"Vessel"</a></dt>
                             <dd>
-                                <a href="https://g.co/kgs/ocMg9S"><img class="album-art float-left" src="images/vessel-480x480.jpg" width="150" alt="Vessel Album"></a>
+                                <a href="https://g.co/kgs/ocMg9S"><img class="album-art float-left" src="images/vessel-480x480.jpg" alt="Vessel Album"></a>
 
                                 Their first album on their major label debut with "Fueled by Ramen" and third studio album overall; released in 2013, "Vessel" implements various elements of pop and rap not yet seen in their previous albums. This album features a variety of "happier" sounding songs compared to past work. "Vessel" also features re-recorded versions of their more popular previous songs such as:
                                 <div class="center">
@@ -86,10 +115,11 @@
                             <!--Blurryface-->
                             <dt class="albumnames"><a href="https://g.co/kgs/Cq1c7w">"Blurryface"</a></dt>
                             <dd class="clearfix">
-                                <a href="https://g.co/kgs/Cq1c7w"><img class="album-art float-right" src="images/blurryface-750x750.jpg" width="150" alt="Blurryface Album"></a>
+                                <a href="https://g.co/kgs/Cq1c7w"><img class="album-art float-right" src="images/blurryface-750x750.jpg" alt="Blurryface Album"></a>
 
 
                                 Their most recent album, and most successful yet, "Blurryface" is their fourth studio album which has featured several songs on the "Billboard Top 100 Lists". "Blurryface" has been the groups main claim to fame, reaching a global audience, the band has received many awards since the release of this album including "Most Iconic Duo", and "Best Album Written by a Single Artist".
+                                <span id="store"></span>
                             </dd>
                         </dl>
                     </main>
@@ -100,7 +130,8 @@
 
                     <h4 class="merch strikethrough"><a href="http://store.twentyonepilots.com">&nbsp;MERCHANDISE&nbsp;</a></h4>
 
-                    <p>Click on the shirt below to go buy some sick merch like it!</p>
+                    <p>Click on the shirt below to go buy some sick merch like it! <span id="contact"></span>
+                    </p>
 
                 </div>
 
@@ -124,7 +155,6 @@
     </div>
     <footer><span class="alphaorangered">©</span>copyright 2017 <a href="https://github.com/rubikso">nathaniel forrest</a> &amp; <a href="twentyonepilots.com">twentyonepilots</a> &amp; <a href="http://www.fueledbyramen.com/">fueled by ramen</a>
         <br>
-        <p>Color palette used on this webpage <a href="#">here</a>.</p>
 
     </footer>
 </body>
