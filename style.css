@@ -47,7 +47,7 @@ body {
 }*/
 
 
-/*Sidebar*/
+/*Sidebar menu button*/
 
 div.button {
     width: 55px;
@@ -65,6 +65,9 @@ div.button p {
     font-size: 2.0em;
     color: #ff0000;
 }
+
+/*Sidebar*/
+
 nav {
     width: 100%;
     text-align: center;
@@ -103,7 +106,7 @@ nav li:last-child a {
     -webkit-transition: all 2s;
     /* For Safari 3.1 to 6.0 */
     transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, margin-left, color;
-    transition: margin-left .5s, border-bottom .35s, opacity 1.2s;
+    transition: margin-left .5s, border-bottom .1s, opacity 1.2s;
     transition-timing-function: ease-in-out;
 }
 .navi:hover {
@@ -122,10 +125,10 @@ ul.navi li:first-child {
 ul.navi a {
     font-family: sans-serif;
     font-weight: bold;
-    border-bottom: 1px solid #ff0000 -webkit-transition: width 2s;
+    -webkit-transition: width 2s;
     /* For Safari 3.1 to 6.0 */
     transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, color;
-    transition: background-color .35s, color .35s;
+    transition: background-color .35s, border-bottom .1s, color .35s;
     transition-timing-function: ease;
 }
 ul.navi a:hover {
@@ -228,13 +231,13 @@ div.intro a:hover {
 .topbox {
     height: 50px;
     width: 50px;
-    background: rgba(255, 255, 255, 1.55);
+    background: rgba(255, 255, 255, 1);
     position: fixed;
     right: 10px;
     bottom: 10px;
     z-index: 1;
     border-radius: 100px;
-    border: solid 4px rgba(255, 0, 0, 1.55);
+    border: solid 4px rgba(255, 0, 0, 1);
     opacity: 1;
     text-align: center;
     vertical-align: middle;
@@ -243,7 +246,7 @@ div.intro a:hover {
 .topbox span {
     color: black;
     font-weight: bold;
-    opacity: 1.55;
+    opacity: 1;
 }
 
 /*albums*/
