@@ -92,6 +92,27 @@ nav.desktop a:hover {
 nav.desktop li:last-child a {
     border-bottom: none;
 }
+.navi li:first-child {
+    margin-top: 150px;
+}
+li img.navi-pic-tyler {
+    display: none;
+    float: left;
+    margin-left: 8px;
+    padding-top: 1px;
+    width: 35%;
+}
+li img.navi-pic-josh {
+    display: none;
+    float: right;
+    width: 80%;
+    margin-right: -90px;
+}
+li img.navi-pic {
+    width: 100%;
+    margin-top: -15px;
+    opacity: 1;
+}
 
 /*--------------------------------------*/
 
@@ -119,16 +140,13 @@ nav.desktop li:last-child a {
     opacity: 0;
     z-index: 200;
     transition-property: width, height, transform, background-color, font-size, opacity, border-bottom, margin-left, color;
-    transition: margin-left .2s ease, opacity .5s ease .13s;
+    transition: margin-left .2s ease, opacity .12s ease .13s;
     transition-timing-function: ease-in-out;
-}
-ul.navi li:first-child {
-    margin-top: 150px;
 }
 
 /*menu hoverng effects*/
 
-ul.navi a {
+ul.navi {
     font-family: sans-serif;
     font-weight: bold;
     -webkit-transition: width 2s;
@@ -140,6 +158,9 @@ ul.navi a {
 ul.navi a:hover {
     background-color: #ff0000;
     color: #000000;
+}
+ul.navi li:hover img {
+    display: inline-block;
 }
 
 /*maintitle*/
