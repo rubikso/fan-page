@@ -100,16 +100,16 @@ li img.navi-pic-tyler {
     float: left;
     margin-left: 8px;
     padding-top: 1px;
-    width: 35%;
+    width: 80px;
 }
 li img.navi-pic-josh {
     display: none;
     float: right;
-    width: 80%;
+    width: 200px;
     margin-right: -90px;
 }
 li img.navi-pic {
-    width: 100%;
+    width: 240px;
     margin-top: -15px;
     opacity: 1;
 }
