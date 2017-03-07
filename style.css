@@ -739,13 +739,13 @@ footer a:hover {
         font-size: .6em;
         position: relative;
         font-size: .8em;
-        height: 2em;
+        height: 3em;
         letter-spacing: .3em;
         line-height: 1.5em;
         margin-top: 0em;
         min-width: auto;
-        padding-bottom: 1em;
-        padding-top: 0em;
+        padding-bottom: 3em;
+        padding-top: 1em;
     }
 }
 
